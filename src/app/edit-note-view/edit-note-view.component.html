@@ -1,5 +1,22 @@
-<!-- Label to display any error messages -->
-<label class="error-message">{{ errMessage }}</label>
+
+<!-- Label to display any error messages
+
+<div class="noteInputs">
+  <mat-form-field>
+      <input [(ngModel)]="note.title" matInput name="title" placeholder="Title">
+    </mat-form-field>
+
+    <mat-form-field>
+      <textarea [(ngModel)]="note.text" matInput name="text" placeholder="Take a note"></textarea>
+    </mat-form-field>
+
+</div>
+<div class="noteSubmit">
+  <button (click)="saveNote()" mat-raised-button color="primary">Done</button>
+</div> -->
+
+<div class="noteInputs">
+ <label class="error-message">{{ errMessage }}</label>
 
 
 <mat-form-field> 
@@ -16,5 +33,6 @@
 </mat-select>
 </mat-form-field>
 <div class="keep-c-done-wrapper">
-  <button mat-button (click)="onSave()">Save</button>
+  <button mat-button (click)="saveNote()">Save</button>
+</div> 
 </div>

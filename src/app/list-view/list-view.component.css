@@ -1,0 +1,6 @@
+.keep-c-list-container{
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+    justify-content: space-evenly;
+}

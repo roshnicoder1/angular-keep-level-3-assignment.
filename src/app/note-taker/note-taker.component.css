@@ -1,0 +1,14 @@
+.noteInputContainer{
+    width:40vw;
+    margin:auto;
+    margin-top:2em;
+}
+.noteInputs{
+    display:flex;
+    flex-direction: column;
+}
+.noteSubmit{
+   display: flex;
+   justify-content: flex-end; 
+}
+
